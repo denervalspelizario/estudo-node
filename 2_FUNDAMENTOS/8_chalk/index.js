@@ -6,8 +6,8 @@ const nota = 5
 
 if (nota >= 6){
 
-    console.log(chalk.green.bold('Parabéns! Você foi aprovado!!'))  // chalk deixa na cor verde
+    console.log(chalk.bgGreenBright.white.bold('Parabéns! Você foi aprovado!!'))  // chalk deixa na cor verde
 
 } else {
-    console.log(chalk.bgRed.black('Parabéns! Você foi reprovado!!')) // chalk deixa o fundo red e cor de texto preta 
+    console.log(chalk.bgRed.italic.white('Parabéns! Você foi reprovado!!')) // chalk deixa o fundo red e cor de texto preta 
 }
